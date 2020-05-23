@@ -83,7 +83,6 @@ writeToFile('readMe.md',data)
 })
 
 function writeToFile(fileName, data) {
-    let link = 'https://img.shields.io/static/v1?label=<License>&message=<'+data.License+'>&color=<blue>'
     let write = 
 `## ${data.title}
 ![Generic badge](https://img.shields.io/badge/<License>-<${data.License}>-<green>.svg)](https://shields.io/)
