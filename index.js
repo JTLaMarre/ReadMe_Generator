@@ -38,7 +38,7 @@ inquirer
     {
         type: 'list',
     message: 'what kind of license does this project have?',
-    choices: ['MIT', 'Apache License 2.0.', 'BSD 3-Clause', 'BSD 2-Clause', 'GPL', 'LGPL','Other'],
+    choices: ['MIT', 'Apache', 'BSD 3', 'BSD 2', 'GPL', 'LGPL','Other'],
      name: 'License'
     },
 
@@ -83,9 +83,11 @@ writeToFile('readMe.md',data)
 })
 
 function writeToFile(fileName, data) {
+    let link = 'https://img.shields.io/static/v1?label=<License>&message=<'+data.License+'>&color=<blue>'
     let write = 
 `## ${data.title}
-figure out badge
+![Generic badge](https://img.shields.io/badge/<License>-<${data.License}>-<green>.svg)](https://shields.io/)
+
  ## Description
  ${data.Description}
 
