@@ -38,7 +38,7 @@ inquirer
     {
         type: 'list',
     message: 'what kind of license does this project have?',
-    choices: ['MIT', 'Apache', 'BSD 3', 'BSD 2', 'GPL', 'LGPL','Other'],
+    choices: ['MIT', 'Apache', 'BSD', 'GPL', 'LGPL','Other'],
      name: 'License'
     },
 
