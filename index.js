@@ -57,7 +57,23 @@ inquirer
         type : 'input',
         message : 'type or copy and paste the url for your Github here',
         name : 'gitimg'    
+    },
+    {
+        type: 'input',
+        message: 'for user story AS A (your response here)',
+        name: 'ASA'
+    },
+    {
+        type: 'input',
+        message: 'for user story I WANT A (your response here)',
+        name: 'WANT'
+    },
+    {
+        type: 'input',
+        message: 'for user story SO THAT I CAN (your response here)',
+        name: 'SO'
     }
+    
 
 
 ])
@@ -79,6 +95,7 @@ figure out badge
 * [license](#License)
 * [contributing](#Contributing)
 * [Tests](#Tests)
+* [User Story](#UserStory)
 * [Github](#Github)
 
 ## Installation
@@ -96,6 +113,10 @@ ${data.Contributing} contributed to the design.
 ## Tests
 try these test commands: ${data.Tests}
 
+## UserStory
+AS A ${data.ASA}
+I WANT ${data.WANT}
+SO THAT ${data.SO}
 ## Github
 profile picture:${data.github}
 email: ${data.githubemail}

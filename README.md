@@ -15,7 +15,7 @@ figure out badge
 npm i on command line to install
 
 ## Usage
-open and follow promotes try it out with just the word test in all the prompts
+open command line and type (node index.js) and follow promotes try it out with just the word test in all the prompts
 
 ## License
 used the Other license
